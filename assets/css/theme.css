@@ -1,0 +1,407 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* common css start  */
+body{
+    font-family: "Roboto", sans-serif;
+    color: #0a2830;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #0a2830;
+}
+strong{
+    font-weight: 600;
+}
+.btn-theme{
+    background: #c00000;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+}
+.btn-theme:hover{
+    background-color: #000;
+    color: #fff;
+}
+.section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.gray-bg {
+    background-color: #f0f0f0;
+}
+.red{
+    color: #c00000;
+}
+/* common css end  */
+
+/* header  */
+.main-header{
+    background: rgba(246, 246, 246, 0.52);
+}
+.contact-dtl ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 14px;
+    gap: 0 15px;
+    flex-wrap: wrap;
+}
+.contact-dtl ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.contact-dtl ul li a i{
+    color: #c00000;
+}
+.navTop .inner-navTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+.navTop .inner-navTop .brand-own .inner-brand-own{
+    text-align: center;
+}
+.navTop .inner-navTop .brand-own .inner-brand-own img{
+    display: block;
+    max-width: 145px;
+    height: 33px;
+    object-fit: contain;
+    object-position: center;
+}
+.navTop .inner-navTop .brand-own .inner-brand-own .text{
+    font-size: 22px;
+    color: #c00000;
+    font-weight: 500;
+}
+.main-header .navbar{
+    background: #c00000;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px;
+}
+.main-header .navbar .navbar-brand{
+    max-height: 80px;
+    margin-top: 0px;
+}
+.main-header .navbar .navbar-brand img{
+    max-height: 80px;
+    margin-top: -30px;  
+}
+.main-header .navbar .collapse ul.navbar-nav li a{
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-header .navbar .collapse ul li a:hover{
+    opacity: 0.9;
+    color: #fff;
+}
+.social-icons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+.social-icons li a{
+    background: #fff;
+    width: 35px;
+    height: 35px;
+    color: #c00000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+.social-icons li a:hover{
+    background: #c00000;
+    color: #fff;
+}
+.banner {
+    background: rgba(246, 246, 246, 0.52);
+}
+.banner .banner-inner .item{
+    position: relative;
+}
+.banner .banner-inner .btn-box{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -38px;
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+    gap: 20px;
+}
+.banner .banner-inner .item .img img{
+    width: 100%;
+}
+/* header end  */
+
+/* About us start */
+.about-us .row {
+    align-items: center;
+}
+.about-us .row .text-side h2{
+  color: #c00000;
+}
+.about-us .row .text-side p{
+    font-size: 20px;
+}
+.about-us .row .img-side img{
+    max-width: 100%;
+}
+/* About us end */
+
+/* welcome section start  */
+.welcome-section .row{
+    align-items: center;
+}
+.welcome-section h2{
+    font-size: 40px;
+    font-weight: 200;
+}
+.welcome-section .img-side img{
+    max-width: 100%;
+}
+/* welcome section end  */
+
+/* contact section start */
+.contact .map-side iframe{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+}
+.contact .secTitle{
+    background: #000000;
+    padding: 10px 24px;
+    margin-left: -12px;
+    margin-right: -12px;
+    border-bottom: 2px solid #fff;
+}
+.contact .secTitle h2{
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.contact .contact-info h3{
+    font-weight: 600;
+    color: #e00000;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.map-side{
+    display: flex;
+}
+.location-side{
+    background-color: #373737;
+}
+.contact-info{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.showroom-dtl strong{
+    font-weight: 700;
+}
+.showroom-dtl{
+        padding: 0;
+    margin-bottom: 20px;
+    list-style: none;
+}
+.showroom-dtl li{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 200;
+    color: #fff;
+}
+.showroom-dtl .anchor{
+    text-decoration: none;
+    color: #fff;
+}
+.showroom-dtl .anchor i{
+    width: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #e6b314;
+}
+.contact{
+    margin-bottom: 50px;
+}
+/* contact section end */
+
+/* footer start  */
+.footer-top .inner-wrap{
+    background-image: url('../img/Motorcycle-Wheel.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-top .inner-wrap .item-wrap .item{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+.footer-top .inner-wrap .item-wrap .item h5{
+    margin-bottom: 30px;
+    color: #fff;
+} 
+.footer-top .inner-wrap .item-wrap .item ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.footer-top .inner-wrap .item-wrap .item ul li{
+    margin-bottom: 15px;
+}
+.footer-top .inner-wrap .item-wrap .item ul li .btn:hover{
+    border-color: #fff;
+}
+.footer-top .inner-wrap .item-wrap .item.social-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-main {
+    background: rgba(223, 229, 235, 0.29);
+    padding: 20px;
+    border-radius: 20px;
+}
+.form-main h3,
+.form-main .form-label,
+.form-main .form-check-label{
+    color: #fff;
+}
+.bottom-footer .footer-menu{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(10, 40, 48);
+    align-items: center;
+    padding: 15px;
+}
+.bottom-footer .footer-menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    flex: 0 0 60%;
+    width: 60%;
+    max-width: 60%;
+}
+.bottom-footer .footer-menu .copyright{
+    flex: 0 0 40%;
+    width: 40%;
+    max-width: 40%;
+    text-align: right;
+}
+.bottom-footer .footer-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-footer .footer-menu ul li a:hover{
+    text-decoration: underline;
+}
+.copyright p{
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+}
+.copyright p a{
+    color: #fff;
+}
+/* footer end  */
+
+/* breadcrumb start  */
+.breadcrumb-mn{
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.breadcrumb-mn .breadcrumb{
+    margin: 0;
+}
+.breadcrumb-mn .breadcrumb li a,
+.breadcrumb-mn .breadcrumb li,
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #c00000;
+    text-transform: uppercase;
+}
+/* breadcrumb end  */
+
+.contact-from-wrap{
+    background: rgb(223, 229, 235);
+    padding: 30px;
+}
+.contact .form-side{
+    padding-right: 0;
+    display: flex;
+}
+.navbar-light .navbar-toggler{
+    color: #fff;
+}
+@media only screen and (max-width: 991px){
+    br{
+        display: none;
+    }
+    .main-header .navbar{
+        height: auto;
+    }
+    .about-us .text-side{
+        margin-bottom: 20px;
+    }
+    .welcome-section h2{
+        font-size: 30px;
+    }
+    .contact .row{
+        flex-wrap: wrap;
+    }
+    .bottom-footer .footer-menu{
+        gap: 10px;
+    }
+    .footer-top .inner-wrap .item-wrap .item{
+        text-align: center;
+    }
+    .bottom-footer .footer-menu ul,
+    .bottom-footer .footer-menu .copyright{
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .social-icons{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .contact .form-side{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .contact .form-side{
+        order: 2;
+    }
+    .contact .location-side{
+        order: 1;
+    }
+    .showroom-dtl li{
+        font-size: 18px;
+    }
+    .contact .contact-info h3{
+        font-size: 25px;
+    }
+}
